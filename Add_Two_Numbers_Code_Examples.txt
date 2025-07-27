@@ -1,0 +1,143 @@
+--- Python ---
+# Python
+num1 = 5
+num2 = 3
+sum = num1 + num2
+print("The sum is:", sum)
+
+
+--- C ---
+// C
+#include <stdio.h>
+int main() {
+    int num1 = 5, num2 = 3, sum;
+    sum = num1 + num2;
+    printf("The sum is: %d\n", sum);
+    return 0;
+}
+
+
+--- C++ ---
+// C++
+#include <iostream>
+using namespace std;
+int main() {
+    int num1 = 5, num2 = 3;
+    int sum = num1 + num2;
+    cout << "The sum is: " << sum << endl;
+    return 0;
+}
+
+
+--- Java ---
+// Java
+public class AddNumbers {
+    public static void main(String[] args) {
+        int num1 = 5, num2 = 3;
+        int sum = num1 + num2;
+        System.out.println("The sum is: " + sum);
+    }
+}
+
+
+--- JavaScript ---
+// JavaScript
+let num1 = 5;
+let num2 = 3;
+let sum = num1 + num2;
+console.log("The sum is:", sum);
+
+
+--- C# ---
+// C#
+using System;
+class Program {
+    static void Main() {
+        int num1 = 5, num2 = 3;
+        int sum = num1 + num2;
+        Console.WriteLine("The sum is: " + sum);
+    }
+}
+
+
+--- Ruby ---
+# Ruby
+num1 = 5
+num2 = 3
+sum = num1 + num2
+puts "The sum is: #{sum}"
+
+
+--- Go ---
+// Go
+package main
+import "fmt"
+func main() {
+    var num1, num2 = 5, 3
+    sum := num1 + num2
+    fmt.Println("The sum is:", sum)
+}
+
+
+--- Kotlin ---
+// Kotlin
+fun main() {
+    val num1 = 5
+    val num2 = 3
+    val sum = num1 + num2
+    println("The sum is: $sum")
+}
+
+
+--- Swift ---
+// Swift
+let num1 = 5
+let num2 = 3
+let sum = num1 + num2
+print("The sum is: \(sum)")
+
+
+--- PHP ---
+// PHP
+<?php
+$num1 = 5;
+$num2 = 3;
+$sum = $num1 + $num2;
+echo "The sum is: $sum";
+?>
+
+
+--- R ---
+# R
+num1 <- 5
+num2 <- 3
+sum <- num1 + num2
+cat("The sum is:", sum, "\n")
+
+
+--- Scala ---
+// Scala
+object AddNumbers extends App {
+    val num1 = 5
+    val num2 = 3
+    val sum = num1 + num2
+    println("The sum is: " + sum)
+}
+
+
+--- Perl ---
+# Perl
+my $num1 = 5;
+my $num2 = 3;
+my $sum = $num1 + $num2;
+print "The sum is: $sum\n";
+
+
+--- MATLAB ---
+% MATLAB
+num1 = 5;
+num2 = 3;
+sum = num1 + num2;
+fprintf('The sum is: %d\n', sum);
+
+
