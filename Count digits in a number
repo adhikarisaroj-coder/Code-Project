@@ -1,0 +1,6 @@
+def count_digits(num):
+    return len(str(abs(num)))   # abs() handles negative numbers
+
+# Example usage
+n = int(input("Enter a number: "))
+print(f"Number of digits in {n} is {count_digits(n)}")
